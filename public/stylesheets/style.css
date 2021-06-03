@@ -109,3 +109,34 @@ h1, h2{
 thead th, .view-proj-link, .view-proj-link:hover{
   color: #ece0b9;
 }
+
+.profile-bio{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.profile-bio-left {
+  position: relative;
+}
+
+.profile-bio-right {
+  position: relative;
+}
+
+@media screen and (min-width:1152px){
+  .profile-bio {
+    justify-content: space-between;
+  }
+
+  .profile-bio-left {
+    order:2;
+  }
+
+  .profile-bio-right {
+    width: 60%;
+    order:1;
+  }
+}
+
+
