@@ -3,7 +3,11 @@
 }
 
 body{
-  background-color: #eaedf0;
+  background-color: #222222;
+}
+
+a{
+  text-decoration: none;
 }
 
 .app-main{
@@ -23,11 +27,85 @@ body{
 }
 
 .big-white-container{
-  background-color: white;
+  background-color: #303030;
   box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
 }
 
 footer {
-  padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+  color:white;
+}
+
+.dark-themed-text{
+  color:white;
+}
+
+.btn-round{
+  font-size: 1.5em;
+  border-radius: 50%;
+}
+
+.social-btn{
+  border-color: #bf937e;
+  color: #ece0b9;
+}
+
+.social-btn:hover{
+  background-color: #ece0b9 !important;
+  color: #303030;
+  border-color: #303030;
+}
+
+.accent-color{
+  color: #bf937e !important;
+}
+
+.profile-photo{
+  width: 15em;
+  border-radius: 50%;
+}
+
+hr{
+  background-color: #bf937e;
+}
+
+h1, h2{
+  color: #bf937e;
+}
+
+.nav-icon{
+  width: 3.5em;
+}
+
+.nav-link{
+  font-size: 1.25em;
+  color: #ece0b9 !important;
+}
+
+.duration-date{
+  color: white;
+}
+
+.company-uni-link{
+  color: #ece0b9;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.company-uni-link:hover{
+  text-decoration: none;
+  color: #bf937e;
+}
+
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1700px;
+  }
+}
+
+thead th, .view-proj-link, .view-proj-link:hover{
+  color: #ece0b9;
 }

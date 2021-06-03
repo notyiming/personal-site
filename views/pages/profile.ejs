@@ -1,60 +1,105 @@
-<!--<!DOCTYPE html>-->
-<!--<html>-->
-<!--<div class="app-main">-->
-<!--  <section class="jumbotron big-white-container">-->
-<!--    <div class="container">-->
-<!--        <h1 class="jumbotron-heading">Tan, Yi Ming</h1>-->
-<!--        <p class="lead text-muted">Software Engineer 👨‍💻 Computer Scientist 💻</p>-->
-<!--        <p>-->
-<!--          <a class="btn btn-outline-success my-2 my-sm-0" href="/login">Log In</a>-->
-<!--          <a class="btn btn-outline-secondary my-2 my-sm-0" href="/register">Sign Up</a>-->
-<!--        </p>-->
-<!--    </div>-->
-<!--  </section>-->
-
-<!--&lt;!&ndash;  <div class="d-flex justify-content-around">&ndash;&gt;-->
-<!--&lt;!&ndash;    <div class="card link-page-card">&ndash;&gt;-->
-<!--&lt;!&ndash;      <img src="/images/aboutUs.png" class="card-img-top home-link-img" alt="About Us">&ndash;&gt;-->
-<!--&lt;!&ndash;      <div class="card-body">&ndash;&gt;-->
-<!--&lt;!&ndash;        <h5 class="card-title">About Us</h5>&ndash;&gt;-->
-<!--&lt;!&ndash;        <p class="card-text">Know more about the company and meet the team.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;        <a href="/about" class="btn btn-primary">Go to About Us page</a>&ndash;&gt;-->
-<!--&lt;!&ndash;      </div>&ndash;&gt;-->
-<!--&lt;!&ndash;    </div>&ndash;&gt;-->
-<!--&lt;!&ndash;    <div class="card link-page-card">&ndash;&gt;-->
-<!--&lt;!&ndash;      <img src="/images/help.png" class="card-img-top home-link-img" alt="help">&ndash;&gt;-->
-<!--&lt;!&ndash;      <div class="card-body">&ndash;&gt;-->
-<!--&lt;!&ndash;        <h5 class="card-title">Help Center</h5>&ndash;&gt;-->
-<!--&lt;!&ndash;        <p class="card-text">Do you need any help? Click here if you do.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;        <a href="/help" class="btn btn-primary">Go to Help Center page</a>&ndash;&gt;-->
-<!--&lt;!&ndash;      </div>&ndash;&gt;-->
-<!--&lt;!&ndash;    </div>&ndash;&gt;-->
-<!--&lt;!&ndash;    <div class="card link-page-card">&ndash;&gt;-->
-<!--&lt;!&ndash;      <img src="/images/contacts.png" class="card-img-top home-link-img" alt="contacts">&ndash;&gt;-->
-<!--&lt;!&ndash;      <div class="card-body">&ndash;&gt;-->
-<!--&lt;!&ndash;        <h5 class="card-title">Contact Us</h5>&ndash;&gt;-->
-<!--&lt;!&ndash;        <p class="card-text">Please contact us if you have any enquiries.</p>&ndash;&gt;-->
-<!--&lt;!&ndash;        <a href="/contacts" class="btn btn-primary">Go to Contact Us page</a>&ndash;&gt;-->
-<!--&lt;!&ndash;      </div>&ndash;&gt;-->
-<!--&lt;!&ndash;    </div>&ndash;&gt;-->
-
-
-<!--&lt;!&ndash;  </div>&ndash;&gt;-->
-<!--</div>-->
-<!--</body>-->
-<!--</html>-->
-
-
 <!DOCTYPE html>
 <html>
 <%- include('../partials/head'); %>
 <body>
+<%- include('../partials/header'); %>
 <div class="app-main">
-    <section class="jumbotron text-center big-white-container">
-        <div class="container">
-            <h1 class="jumbotron-heading">Work In Progress, Stay Tuned</h1>
+  <section class="jumbotron big-white-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <h1>Tan, Yi Ming</h1>
+                <p class="lead dark-themed-text">Student | Software Engineer</p>
+                <p class="lead dark-themed-text">Munster Technological University, Cork Ireland</p>
+                <p>
+                    <a class="btn my-2 my-sm-0 mr-3 social-btn" href="/downloadCV">Download Resume <i class="far fa-file"></i></a>
+                    <a class="btn my-2 my-sm-0 social-btn" href="mailto:ymtan.2062@gmail.com">Reach Out <i class="far fa-envelope"></i></a>
+                </p>
+                <p>
+                    <a class="btn my-2 my-sm-0 mr-3 social-btn btn-round" href="https://www.linkedin.com/in/yiming-t-155616184/"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn my-2 my-sm-0 social-btn btn-round" href="https://github.com/notyiming"><i class="fab fa-github-alt"></i></a>
+                </p>
+                <p class="lead dark-themed-text">
+                    Yi Ming is an aspiring and motivated Computer Science undergraduate in MTU who is very passionate in problem solving and very interested in data structures and algorithms problems. <br><br>
+                    He delivers good quality software by being proactive in looking for solutions and paying great attention to details. He is capable of picking up new technologies fairly quickly and efficiently with minimal supervision.
+                </p>
+            </div>
+            <div class="col-5 text-right">
+                <img class="profile-photo" alt="Profile Photo" src="/images/profile.png">
+            </div>
         </div>
-    </section>
+        
+    </div>
+      <div class="container">
+          <hr>
+          <h2>Experience</h2>
+          <div class="row">
+              <div class="col-xl-7">
+                  <a class="company-uni-link" target="_blank" href="//www.neptrix.com">Neptrix IT Solutions</a>
+                  <h5 class="mb-3">Software Engineer Intern</h5>
+                  <p class="lead dark-themed-text">
+                      I orchestrated the front-end development of the beta version of the MES ERP system application. I also led design and implementation of a new informative dashboard page, statistical charts and reports,  announcement board,
+                      shortcuts tab by creating API endpoints, to create a minimum viable product, which all have been highly requested by 60% of our clients. I also attended meetings with the clients for requirements elicitation.
+                  </p>
+              </div>
+              <div class="col-xl-5 text-right">
+                  <i class="duration-date">June 2020 - August 2020</i>
+              </div>
+          </div>
+          <hr>
+          <h2>Education</h2>
+          <div class="row">
+              <div class="col-xl-7">
+                  <a class="company-uni-link" target="_blank" href="//www.mtu.ie">Munster Technological University</a>
+                  <h5 class="mb-3">BSc (Honours) Software Development</h5>
+                  <p class="lead dark-themed-text">
+                      Cumulative Average: 91%<br>
+                      Core Modules: OOP, Web Development, Database Design, Data Structures and Algorithms, Discrete Maths<br>
+                      Ranked 3rd overall in Valentine's Day Hackathon 2020.<br>
+                      Ranked 2nd overall in the Lee Field's Medal Maths Competition 2019.
+
+                  </p>
+              </div>
+              <div class="col-xl-5 text-right">
+                  <i class="duration-date">September 2019 - Present</i>
+              </div>
+          </div>
+
+
+      </div>
+  </section>
+
+<!--  <div class="d-flex justify-content-around">-->
+<!--    <div class="card link-page-card">-->
+<!--      <img src="/images/aboutUs.png" class="card-img-top home-link-img" alt="About Us">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">About Us</h5>-->
+<!--        <p class="card-text">Know more about the company and meet the team.</p>-->
+<!--        <a href="/about" class="btn btn-primary">Go to About Us page</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="card link-page-card">-->
+<!--      <img src="/images/help.png" class="card-img-top home-link-img" alt="help">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Help Center</h5>-->
+<!--        <p class="card-text">Do you need any help? Click here if you do.</p>-->
+<!--        <a href="/help" class="btn btn-primary">Go to Help Center page</a>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    <div class="card link-page-card">-->
+<!--      <img src="/images/contacts.png" class="card-img-top home-link-img" alt="contacts">-->
+<!--      <div class="card-body">-->
+<!--        <h5 class="card-title">Contact Us</h5>-->
+<!--        <p class="card-text">Please contact us if you have any enquiries.</p>-->
+<!--        <a href="/contacts" class="btn btn-primary">Go to Contact Us page</a>-->
+<!--      </div>-->
+<!--    </div>-->
+
+
+<!--  </div>-->
 </div>
+<%- include('../partials/footer'); %>
 </body>
 </html>
+
+
