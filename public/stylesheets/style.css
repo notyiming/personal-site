@@ -6,6 +6,10 @@ body{
   background-color: #222222;
 }
 
+body.light{
+  background-color: white;
+}
+
 a{
   text-decoration: none;
 }
@@ -26,8 +30,13 @@ a{
   width: 20rem;
 }
 
-.big-white-container{
+.big-container{
   background-color: #303030;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+}
+
+.big-container.light{
+  background-color: #fff;
   box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
 }
 
@@ -140,5 +149,22 @@ thead th, .view-proj-link, .view-proj-link:hover{
     text-align: left;
   }
 }
+
+.theme-toggle-btn{
+  background-color: #303030;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: #ece0b9;
+}
+
+.theme-toggle-btn i{
+  font-size: 1.5em;
+}
+
+button:focus{
+  outline: none;
+}
+
 
 
