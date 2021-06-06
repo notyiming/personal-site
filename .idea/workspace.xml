@@ -38,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -46,14 +46,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\YI MING\Desktop\personalSite\resources" />
-      <recent name="C:\Users\YI MING\Desktop\personalSite\views\partials" />
-      <recent name="C:\Users\YI MING\Desktop\personalSite\public\stylesheets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\YI MING\Desktop\personalSite\public\images" />
       <recent name="C:\Users\YI MING\Desktop\personalSite\views\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\YI MING\Desktop\personalSite\public\images" />
+      <recent name="C:\Users\YI MING\Desktop\personalSite\resources" />
+      <recent name="C:\Users\YI MING\Desktop\personalSite\views\partials" />
+      <recent name="C:\Users\YI MING\Desktop\personalSite\public\stylesheets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,6 +72,7 @@
       <workItem from="1622730863422" duration="10144000" />
       <workItem from="1622816455172" duration="12689000" />
       <workItem from="1622834630256" duration="256000" />
+      <workItem from="1622835568336" duration="532000" />
     </task>
     <servers />
   </component>
@@ -106,26 +108,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1622830902828" />
-    <state width="1899" height="510" key="GridCell.Tab.0.bottom" timestamp="1622834124614">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1313" height="400" key="GridCell.Tab.0.bottom" timestamp="1622836105690">
+      <screen x="1920" y="-653" width="1333" height="871" />
     </state>
     <state width="1899" height="510" key="GridCell.Tab.0.bottom/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1622834124614" />
-    <state width="1313" height="55" key="GridCell.Tab.0.bottom/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622822972450" />
-    <state width="1899" height="510" key="GridCell.Tab.0.center" timestamp="1622834124614">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1313" height="400" key="GridCell.Tab.0.bottom/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622836105690" />
+    <state width="1313" height="400" key="GridCell.Tab.0.center" timestamp="1622836105690">
+      <screen x="1920" y="-653" width="1333" height="871" />
     </state>
     <state width="1899" height="510" key="GridCell.Tab.0.center/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1622834124614" />
-    <state width="1313" height="55" key="GridCell.Tab.0.center/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622822972450" />
-    <state width="1899" height="510" key="GridCell.Tab.0.left" timestamp="1622834124614">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1313" height="400" key="GridCell.Tab.0.center/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622836105690" />
+    <state width="1313" height="400" key="GridCell.Tab.0.left" timestamp="1622836105690">
+      <screen x="1920" y="-653" width="1333" height="871" />
     </state>
     <state width="1899" height="510" key="GridCell.Tab.0.left/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1622834124614" />
-    <state width="1313" height="55" key="GridCell.Tab.0.left/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622822972449" />
-    <state width="1899" height="510" key="GridCell.Tab.0.right" timestamp="1622834124614">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1313" height="400" key="GridCell.Tab.0.left/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622836105690" />
+    <state width="1313" height="400" key="GridCell.Tab.0.right" timestamp="1622836105690">
+      <screen x="1920" y="-653" width="1333" height="871" />
     </state>
     <state width="1899" height="510" key="GridCell.Tab.0.right/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1622834124614" />
-    <state width="1313" height="55" key="GridCell.Tab.0.right/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622822972450" />
+    <state width="1313" height="400" key="GridCell.Tab.0.right/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1622836105690" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1622499838042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
