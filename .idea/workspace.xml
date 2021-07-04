@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd1e4415-4e49-408a-98fa-2402a0d49659" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/views/pages/profile.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/profile.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.20.13" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../msg-proj-react" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -86,7 +86,9 @@
       <workItem from="1624720321676" duration="1022000" />
       <workItem from="1624723086450" duration="22000" />
       <workItem from="1624723120866" duration="84000" />
-      <workItem from="1625157533591" duration="372000" />
+      <workItem from="1625157533591" duration="1027000" />
+      <workItem from="1625228556893" duration="597000" />
+      <workItem from="1625261171950" duration="20000" />
     </task>
     <servers />
   </component>
@@ -118,11 +120,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1622588223538" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1624723107379">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2434" y="-423" key="FileChooserDialogImpl" timestamp="1625261189705">
+      <screen x="1920" y="-653" width="1333" height="871" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/1920.-653.1333.871/0.0.1920.1040@0.0.1920.1040" timestamp="1624723107379" />
-    <state x="2434" y="-423" key="FileChooserDialogImpl/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1624274615048" />
+    <state x="2434" y="-423" key="FileChooserDialogImpl/1920.-653.1333.871/0.0.1920.1040@1920.-653.1333.871" timestamp="1625261189705" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1624723045416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
