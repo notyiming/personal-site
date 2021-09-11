@@ -1,88 +1,137 @@
 <!DOCTYPE html>
 <html>
-<%- include('../partials/head'); %>
+  <%- include('../partials/head'); %>
 
-    <body>
-        <%- include('../partials/header'); %>
-            <div class="app-main">
-                <section class="jumbotron big-container">
-                    <div class="container">
-                        <div class="profile-bio">
-                            <div class="profile-bio-left mb-3">
-                                <img class="profile-photo" alt="Profile Photo" src="/images/profile.jpg">
-                            </div>
-                            <div class="profile-bio-right">
-                                <h1>Tan, Yi Ming</h1>
-                                <p class="lead dark-themed-text">Student | Software Engineer</p>
-                                <p class="lead dark-themed-text">Munster Technological University, Cork Ireland</p>
-                                <p>
-                                    <a class="btn my-2 my-sm-0 mr-3 social-btn" href="/downloadCV">Download Resume <i
-                                            class="far fa-file"></i></a>
-                                    <a class="btn my-2 my-sm-0 social-btn" href="mailto:ymtan.2062@gmail.com">Reach Out
-                                        <i class="far fa-envelope"></i></a>
-                                </p>
-                                <p>
-                                    <a target="_blank" class="btn my-2 my-sm-0 mr-3 social-btn btn-round"
-                                        href="https://www.linkedin.com/in/tanyiming/"><i
-                                            class="fab fa-linkedin-in"></i></a>
-                                    <a target="_blank" class="btn my-2 my-sm-0 social-btn btn-round"
-                                        href="https://github.com/notyiming"><i class="fab fa-github-alt"></i></a>
-                                </p>
-                                <p class="lead dark-themed-text">
-                                    Yi Ming is an aspiring and motivated Computer Science undergraduate at MTU who is
-                                    very passionate about problem-solving and very interested in data structures and
-                                    algorithm problems. <br><br>
-                                    He delivers good quality software by being proactive in looking for solutions and
-                                    paying great attention to details. He is capable of picking up new technologies
-                                    fairly quickly and efficiently with minimal supervision.</p>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="container">
-                        <hr>
-                        <h2>Experience</h2>
-                        <div class="row">
-                            <div class="col-xl-7">
-                                <a class="company-uni-link" target="_blank" href="//www.neptrix.com">Neptrix IT
-                                    Solutions</a>
-                                <h5 class="mb-3">Software Engineer Intern</h5>
-                                <p class="lead dark-themed-text">
-                                    I orchestrated the front-end development of the beta version of the MES ERP system
-                                    application. I also led the design and implementation of a new informative dashboard
-                                    page, statistical charts, and reports, announcement board,
-                                    shortcuts tab by creating API endpoints, to create a minimum viable product, which
-                                    all have been highly requested by 60% of our clients. I also attended meetings with
-                                    the clients for requirements elicitation.
-                                </p>
-                            </div>
-                            <div class="col-xl-5 text-right">
-                                <i class="duration-date">June 2020 - August 2020</i>
-                            </div>
-                        </div>
-                        <hr>
-                        <h2>Education</h2>
-                        <div class="row">
-                            <div class="col-xl-7">
-                                <a class="company-uni-link" target="_blank" href="//www.mtu.ie">Munster Technological
-                                    University</a>
-                                <h5 class="mb-3">BSc (Honours) Software Development</h5>
-                                <p class="lead dark-themed-text">
-                                    Cumulative Average: 91%<br>
-                                    Core Modules: OOP, Web Development, Database Design, Data Structures and Algorithms,
-                                    Discrete Maths<br>
-                                    Ranked 3rd overall in Valentine's Day Hackathon 2020.<br>
-                                    Ranked 2nd overall in the Lee Field's Medal Maths Competition 2019.
-                                </p>
-                            </div>
-                            <div class="col-xl-5 text-right">
-                                <i class="duration-date">September 2019 - Present</i>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+  <body>
+    <%- include('../partials/header'); %>
+    <div class="app-main">
+      <section class="jumbotron big-container">
+        <div class="container">
+          <div class="profile-bio">
+            <div class="profile-bio-left mb-3">
+              <img
+                class="profile-photo"
+                alt="Profile Photo"
+                src="/images/profile.jpg"
+              />
             </div>
-            <%- include('../partials/footer'); %>
-    </body>
-
+            <div class="profile-bio-right">
+              <h1>Tan, Yi Ming</h1>
+              <p class="lead dark-themed-text">Student | Software Engineer</p>
+              <p class="lead dark-themed-text">
+                Munster Technological University, Cork Ireland
+              </p>
+              <p>
+                <a class="btn my-2 my-sm-0 mr-3 social-btn" href="/downloadCV"
+                  >Download Resume <i class="far fa-file"></i
+                ></a>
+                <a
+                  class="btn my-2 my-sm-0 social-btn"
+                  href="mailto:ymtan.2062@gmail.com"
+                  >Reach Out <i class="far fa-envelope"></i
+                ></a>
+              </p>
+              <p>
+                <a
+                  target="_blank"
+                  class="btn my-2 my-sm-0 mr-3 social-btn btn-round"
+                  href="https://www.linkedin.com/in/tanyiming/"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a
+                  target="_blank"
+                  class="btn my-2 my-sm-0 social-btn btn-round"
+                  href="https://github.com/notyiming"
+                  ><i class="fab fa-github-alt"></i
+                ></a>
+              </p>
+              <p class="lead dark-themed-text">
+                Yi Ming is an aspiring and motivated Computer Science
+                undergraduate at MTU who is very passionate about
+                problem-solving and very interested in data structures and
+                algorithm problems. <br /><br />
+                He delivers good quality software by being proactive in looking
+                for solutions and paying great attention to details. He is
+                capable of picking up new technologies fairly quickly and
+                efficiently with minimal supervision.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <hr />
+          <h2>Experience</h2>
+          <div class="row">
+            <div class="col-xl-7">
+              <a
+                class="company-uni-link"
+                target="_blank"
+                href="https://www.qualcomm.com/"
+                >Qualcomm</a
+              >
+              <h5 class="mb-3">Interim Engineering Intern</h5>
+              <p class="lead dark-themed-text">
+                Proposed a new streamlined software release process for the app
+                owners, which has now been adopted by 100% of all of them.
+                Implemented Python automation tools for 60+ colleagues to
+                facilitate apps release processes. Gained experience with
+                industry level codebase, including style, commenting, and
+                notational procedures.
+              </p>
+            </div>
+            <div class="col-xl-5 text-right">
+              <i class="duration-date">July 2021 - September 2021</i>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-xl-7">
+              <a
+                class="company-uni-link"
+                target="_blank"
+                href="//www.neptrix.com"
+                >Neptrix IT Solutions</a
+              >
+              <h5 class="mb-3">Software Engineer Intern</h5>
+              <p class="lead dark-themed-text">
+                I orchestrated the front-end development of the beta version of
+                the MES ERP system application. I also led the design and
+                implementation of a new informative dashboard page, statistical
+                charts, and reports, announcement board, shortcuts tab by
+                creating API endpoints, to create a minimum viable product,
+                which all have been highly requested by 60% of our clients. I
+                also attended meetings with the clients for requirements
+                elicitation.
+              </p>
+            </div>
+            <div class="col-xl-5 text-right">
+              <i class="duration-date">June 2020 - August 2020</i>
+            </div>
+          </div>
+          <hr />
+          <h2>Education</h2>
+          <div class="row">
+            <div class="col-xl-7">
+              <a class="company-uni-link" target="_blank" href="//www.mtu.ie"
+                >Munster Technological University</a
+              >
+              <h5 class="mb-3">BSc (Honours) Software Development</h5>
+              <p class="lead dark-themed-text">
+                Cumulative Average: 91%<br />
+                Core Modules: OOP, Web Development, Database Design, Data
+                Structures and Algorithms, Discrete Maths<br />
+                Ranked 3rd overall in Valentine's Day Hackathon 2020.<br />
+                Ranked 2nd overall in the Lee Field's Medal Maths Competition
+                2019.
+              </p>
+            </div>
+            <div class="col-xl-5 text-right">
+              <i class="duration-date">September 2019 - Present</i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <%- include('../partials/footer'); %>
+  </body>
 </html>
